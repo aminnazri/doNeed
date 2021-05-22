@@ -4,14 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="MAIN PAGE"
-        android:textSize="40sp"
-        android:textStyle="bold" />
+        android:fontFamily="@font/cocogoose"
+        android:text="doNeed"
+        android:textStyle="bold"
+        android:textSize="45sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:textColor="#8F000000"/>
+
+    <Button
+        android:id="@+id/Login_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg1"
+        android:text="Login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp"/>
+
+    <Button
+        android:id="@+id/SignUp_btn"
+        android:layout_below="@+id/Login_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg2"
+        android:text="Login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+
+
 
 </RelativeLayout>
