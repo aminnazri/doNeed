@@ -20,23 +20,34 @@
 
     <Button
         android:id="@+id/Login_btn"
-        android:layout_width="150dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/button_bg1"
+        android:textSize="25sp"
+        android:fontFamily="@font/cocogoose"
+        android:textStyle="bold"
+        android:paddingLeft="62dp"
+        android:paddingRight="62dp"
         android:text="Login"
+        android:textColor="#ffff"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="420dp"/>
 
     <Button
         android:id="@+id/SignUp_btn"
-        android:layout_below="@+id/Login_btn"
-        android:layout_width="150dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/button_bg2"
-        android:text="Login"
+        android:layout_below="@+id/Login_btn"
+        android:textSize="25sp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:fontFamily="@font/cocogoose"
+        android:textStyle="bold"
+        android:text="Sign Up"
+        android:textColor="#707070"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        />
+        android:layout_marginTop="20dp"/>
 
 
 
