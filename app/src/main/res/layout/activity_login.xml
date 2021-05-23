@@ -32,7 +32,7 @@
                 android:layout_height="600dp"
                 android:layout_marginTop="100dp"
                 android:layout_centerHorizontal="true"
-                app:cardCornerRadius="40dp"
+                app:cardCornerRadius="38dp"
                 app:cardElevation="10dp">
 
                 <RelativeLayout
@@ -51,8 +51,11 @@
                         android:layout_marginTop="30dp"
                         android:textColor="#707070" />
 
-
-
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/brown"
+                        android:hint="email"/>
                 </RelativeLayout>
 
             </androidx.cardview.widget.CardView>
