@@ -51,11 +51,7 @@
                         android:layout_marginTop="30dp"
                         android:textColor="#707070" />
 
-                    <EditText
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColorHint="@color/brown"
-                        android:hint="email"/>
+
                 </RelativeLayout>
 
             </androidx.cardview.widget.CardView>
