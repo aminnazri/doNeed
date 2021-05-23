@@ -49,7 +49,7 @@
                         android:fontFamily="@font/cocogoose"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="31dp"
-                        android:textColor="#707070" />
+                        android:textColor="#4E4545" />
 
 
                 </RelativeLayout>
