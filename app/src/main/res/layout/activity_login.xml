@@ -32,7 +32,7 @@
                 android:layout_height="600dp"
                 android:layout_marginTop="100dp"
                 android:layout_centerHorizontal="true"
-                app:cardCornerRadius="40dp"
+                app:cardCornerRadius="38dp"
                 app:cardElevation="10dp">
 
                 <RelativeLayout
