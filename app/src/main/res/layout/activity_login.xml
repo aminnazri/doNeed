@@ -45,12 +45,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="LOGIN"
-                        android:textSize="40sp"
+                        android:textSize="41sp"
                         android:fontFamily="@font/cocogoose"
                         android:layout_centerHorizontal="true"
-                        android:layout_marginTop="30dp"
-                        android:textColor="#707070" />
-
+                        android:layout_marginTop="31dp"
+                        android:textColor="#4E4545" />
 
 
                 </RelativeLayout>
